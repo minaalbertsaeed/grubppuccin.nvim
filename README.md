@@ -17,13 +17,13 @@
 1. Using `Lazy`:
 
 ```lua
-{ 'my-user/my-theme.nvim' },
+{ 'minaalbertsaeed/grubppuccin.nvim' },
 ```
 
 2. Using `Packer`:
 
 ```lua
-use 'my-user/my-theme.nvim'
+use 'minaalbertsaeed/grubppuccin.nvim'
 ```
 
 ## Configuration
