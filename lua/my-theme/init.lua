@@ -1,8 +1,6 @@
 local colors = require("my-theme.colors")
 local config = require("my-theme.config")
 local utils = require("my-theme.utils")
-local bufferline = require("my-theme.integrations.bufferline")
-local cmp = require("my-theme.integrations.cmp")
 local theme = {}
 
 local function set_terminal_colors()
@@ -277,9 +275,6 @@ local function set_groups()
 		["@lsp.typemod.function.declaration"] = { link = "@function" },
 		["@lsp.typemod.function.readonly"] = { link = "@function" },
 	}
-
-  -- integrations
-  groups = vim.tbl_extend("force", groups, cmp.highlights())
 
   -- overrides
 	groups =
