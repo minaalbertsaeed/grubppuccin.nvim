@@ -310,7 +310,7 @@ function theme.colorscheme()
 
 	vim.g.VM_theme_set_by_colorscheme = true -- Required for Visual Multi
 	vim.o.termguicolors = true
-	vim.g.colors_name = "my-theme"
+	vim.g.colors_name = "grubppuccin"
 
 	set_terminal_colors()
 	set_groups()
