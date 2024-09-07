@@ -1,6 +1,6 @@
-local colors = require("my-theme.colors")
-local config = require("my-theme.config")
-local utils = require("my-theme.utils")
+local colors = require("grubppuccin.colors")
+local config = require("grubppuccin.config")
+local utils = require("grubppuccin.utils")
 local theme = {}
 
 local function set_terminal_colors()
@@ -294,7 +294,7 @@ end
 
 function theme.colorscheme()
 	if vim.version().minor < 8 then
-		vim.notify("Neovim 0.8+ is required for my-theme colorscheme", vim.log.levels.ERROR, { title = "Min Theme" })
+		vim.notify("Neovim 0.8+ is required for grubppuccin colorscheme", vim.log.levels.ERROR, { title = "Min Theme" })
 		return
 	end
 

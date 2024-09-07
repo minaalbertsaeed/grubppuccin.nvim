@@ -1,4 +1,4 @@
-local config = require("my-theme.config")
+local config = require("grubppuccin.config")
 
 local colors = {
 	white = "#ffffff",
