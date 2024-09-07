@@ -55,15 +55,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({
-	root = vim.fn.stdpath("data") .. "/min/lazy",
-	spec = {
-		"nvim-telescope/telescope.nvim",
-		"lewis6991/gitsigns.nvim",
-		"lukas-reineke/indent-blankline.nvim",
-		"nvim-lua/plenary.nvim",
-	},
-})
+
 
 local theme = require("my-theme/init")
 
